@@ -11,7 +11,7 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 app.get("/", (req, res, next) => {
-  res.json('server is up mahnn');
+  res.json('server is up mahnn and CI is running');
 });
 
 app.get("/status", (req, res, next) => {

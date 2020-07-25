@@ -11,12 +11,13 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 app.get("/", (req, res, next) => {
-  res.json('server is up mahnn');
+  res.json('server is up mahnn and CI is running');
 });
 
 app.get("/status", (req, res, next) => {
   res.json({ status: false, timeout: 5000, content: content });
 });
+
 app.get("/comment", (req, res, next) => {
   res.json({ status: false, timeout: 5000, content: content });
 });

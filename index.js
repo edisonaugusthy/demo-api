@@ -17,3 +17,6 @@ app.get("/", (req, res, next) => {
 app.get("/status", (req, res, next) => {
   res.json({ status: false, timeout: 5000, content: content });
 });
+app.get("/pamment", (req, res, next) => {
+  res.json({ status: false, timeout: 5000, content: content });
+});

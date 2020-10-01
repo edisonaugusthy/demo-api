@@ -23,3 +23,7 @@ app.get("/status", (req, res, next) => {
 app.get("/comment", (req, res, next) => {
   res.json({ status: false, timeout: 5000, content: content });
 });
+
+app.get("/get-all", (req, res, next) => {
+  res.json({ status: false, timeout: 100, content: content });
+});
